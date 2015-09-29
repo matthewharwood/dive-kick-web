@@ -11,10 +11,13 @@ Install some globals.
 - npm i nw-builder -g
 - npm i grunt-cli -g
 - npm i gulp -g
+- npm i bower -g
+- npm i live-reload -g
 
 Go to root:
 - npm i
 - bower i
+- node start
 
 How to build nwjs
 - run `gulp build`

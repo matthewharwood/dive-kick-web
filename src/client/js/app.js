@@ -1,6 +1,8 @@
-"use strict";
-var frank = 'frank';
-function hey(person){
-	console.log(person)
-}
-hey(frank);
+(function () {
+  "use strict";
+  angular.module('divkick', [
+      'divkick.container'
+  ]);
+})();
+
+
