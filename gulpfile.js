@@ -1,3 +1,4 @@
+
 // constant for requires
 const gulp = require('gulp');
 const ts = require('gulp-typescript');
@@ -12,13 +13,13 @@ const usemin = require('gulp-usemin');
 const compress = {
     src: 'src/client/js/**/*.js',
     out: 'scripts.min.js',
-    dest: 'build/',
+    dest: 'build/div-kick',
     htmlsrc: 'src/client/*.html',
     options: {
         mangle: true,
     }
 }
-gulp.task('watch', ['tmp.js'], function () {
+gulp.task('watch', ['tmp.js'], () => {
     gulp.watch(CONST.tmp.src, ['tmp.js']);
 });
 
